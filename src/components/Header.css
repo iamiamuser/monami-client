@@ -1,0 +1,79 @@
+/* 전체 헤더 컨테이너 */
+.header-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;  
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  position: relative; 
+}
+
+/* 가운데 카테고리 메뉴 */
+.center-categories {
+  position: absolute;
+  left: 50%;  
+  transform: translateX(-50%);  
+  display: flex;
+  gap: 10px;
+}
+
+.category-button {
+  padding: 8px 16px;
+  color: #333;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.category-button:hover {
+  background-color: #f0f0f0;
+}
+
+/* 가운데 로고 */
+.center-logo h1 {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  margin: 0;
+}
+
+/* 오른쪽 메뉴 */
+.right-menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.right-menu a,
+.right-menu button {
+  font-size: 16px;
+  text-decoration: none;
+  color: #333;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.right-menu a.active,
+.right-menu button:hover {
+  color: #ddd;
+}
+
+.welcome-text {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.logout-button {
+  padding: 8px 16px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}

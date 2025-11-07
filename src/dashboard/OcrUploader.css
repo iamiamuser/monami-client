@@ -1,0 +1,53 @@
+.ocr-uploader-container {
+  font-family: Arial, sans-serif;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90%;          
+  max-width: 800px;    
+  overflow-x: auto;    
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+th, td {
+  padding: 16px; /* 패딩 확대 */
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 1.3em;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+table td, table th {
+  border-right: 1px solid #ddd;
+}
+
+table td:last-child, table th:last-child {
+  border-right: none;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px; 
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}

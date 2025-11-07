@@ -1,0 +1,107 @@
+/* 전체 컨테이너 */
+.checkout-container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 제목 */
+.checkout-container h2 {
+  text-align: center;
+  color: #222;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+/* 상품 목록 제목 */
+.checkout-container h3 {
+  color: #444;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* 개별 상품 카드 */
+.checkout-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+}
+
+.checkout-item-image img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.checkout-item-info h4 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.checkout-item-info p {
+  margin: 4px 0;
+  color: #555;
+}
+
+/* 총 가격 표시 */
+.total-price {
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  color: #000;
+}
+
+/* 결제 완료 버튼 */
+.complete-payment-button {
+  display: block;
+  width: 100%;
+  padding: 16px;
+  margin-top: 30px;
+  background-color: #28a745;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.complete-payment-button:hover {
+  background-color: #218838;
+}
+
+/* 빈 장바구니 메시지 */
+.checkout-container p {
+  text-align: center;
+  color: #999;
+  font-size: 18px;
+}
+
+/* 반응형 */
+@media (max-width: 600px) {
+  .checkout-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .checkout-item-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .complete-payment-button {
+    font-size: 16px;
+    padding: 14px;
+  }
+}

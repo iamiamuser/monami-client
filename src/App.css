@@ -1,0 +1,14 @@
+.products-wrapper {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  width: 100%;              
+  min-height: 100vh;        
+}
+
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  
+  gap: 10px;  
+  justify-items: center;  
+}

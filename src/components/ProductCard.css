@@ -1,0 +1,68 @@
+/* 제품 카드 */
+.product-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 300px;
+  margin: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* 이미지 */
+.product-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* 제품 정보 */
+.product-details {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px; 
+}
+
+/* 제품 이름 */
+.product-details h3 {
+  font-size: 18px;
+  margin-bottom: 5px; 
+}
+
+/* 가격 */
+.price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px; 
+}
+
+/* 수량 입력란 */
+.quantity-control input {
+  width: 60px;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+}
+
+/* 장바구니 담기 버튼 */
+.add-to-cart {
+  margin-top: 15px; 
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+  background-color: #0056b3;
+}

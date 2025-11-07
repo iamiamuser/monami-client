@@ -1,0 +1,74 @@
+/* 기본 리셋 스타일 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f5f7;
+  color: #333;
+  padding: 20px;
+}
+
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.sales-card {
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 40px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4b7bec;
+  margin-bottom: 10px; 
+}
+
+.sales-amount {
+  font-size: 32px;
+  font-weight: 600;
+  color: #333;  
+  margin-top: 0;  
+  margin-bottom: 15px; 
+  flex-grow: 1; 
+}
+
+.loading-text {
+  font-size: 18px;
+  color: #f39c12;  
+  font-weight: 500;
+  margin-top: 20px; 
+}
+
+@media (max-width: 600px) {
+  .sales-card {
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .sales-amount {
+    font-size: 24px;
+  }
+
+  .loading-text {
+    font-size: 16px;
+  }
+}

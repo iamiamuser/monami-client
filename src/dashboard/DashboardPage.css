@@ -1,0 +1,76 @@
+/* 기본 스타일 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+}
+
+/* 대시보드 제목 */
+.dashboard-page-container {
+  padding: 20px;
+}
+
+.dashboard-page-container h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+/* 메뉴바 스타일 */
+nav ul {
+  display: flex;
+  justify-content: space-evenly; 
+  list-style-type: none;
+  padding: 10px 0;
+  background-color: #333;  
+  margin-bottom: 30px;
+  white-space: nowrap; 
+}
+
+nav ul li {
+  flex: 1; 
+  text-align: center;
+  display: inline-block; 
+}
+
+nav ul li button {
+  width: auto; 
+  padding: 12px 20px; 
+  border: none;
+  background-color: #333;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  white-space: nowrap; 
+}
+
+nav ul li button:hover {
+  background-color: #ddd;;  
+}
+
+/* 선택된 메뉴 강조 스타일 */
+nav ul li button.active {
+  background-color: #ddd;;
+  color: #333;
+}
+
+/* 차트 영역 스타일 */
+.chart-container h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.chart-container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
