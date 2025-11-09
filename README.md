@@ -11,9 +11,9 @@ React 기반으로 제작한 웹 애플리케이션입니다.
 
 ## 기술 스택:  
   - React, React Router, Axios
-  - STS4, MariaD
+  - STS4, MariaDB
   - JavaScript, CSS
-  - GitHub 배포
+  - GitHub
 
 ---
 
