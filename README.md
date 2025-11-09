@@ -7,8 +7,7 @@ React 기반으로 제작한 웹 애플리케이션입니다.
 ---
 
 ## 프로젝트 개요
-프로젝트명:Monami Client  
-역할:프론트엔드 개발 (디자인, 상태관리, API 연동 포함) + 백엔드(STS4, MariaDB) 연동
+역할 : 프론트엔드 개발 (디자인, 상태관리, API 연동 포함) + 백엔드(STS4, MariaDB) 연동
 
 ## 기술 스택:  
   - React, React Router, Axios
