@@ -54,11 +54,11 @@ React 기반으로 제작한 웹 애플리케이션입니다.
 ## 월별 주문건수
 ![월별 주문건수 화면](./images/Count.jpg)
 
-## 카테고리별 판매 수량
-![카테고리별 판매 수량 화면](./images/Ranking.jpg)
-
 ## 연령대별 카테고리 판매 순위
-![연령대별 카테고리 판매 순위 화면](./images/Category.jpg)
+![연령대별 카테고리 판매 순위 화면](./images/Ranking.jpg)
+
+## 카테고리별 판매 수량
+![카테고리별 판매 수량 화면](./images/Category.jpg)
 
 ## 성장률
 ![성장률 화면](./images/Growth.jpg)
