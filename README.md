@@ -26,7 +26,7 @@ React 기반으로 제작한 웹 애플리케이션입니다.
 
 ---
 
-## 주요 화면
+## 사용자 화면
 
 ## 메인 페이지
 ![메인 화면](./images/main.jpeg)
@@ -43,5 +43,25 @@ React 기반으로 제작한 웹 애플리케이션입니다.
 ## 결제 페이지
 ![결제 페이지](./images/pay.jpeg)
 
+---
+
 ## 관리자 대시보드
 ![관리자 대시보드](./images/orderlist.jpeg)
+
+## 월별 판매액
+![월별 판매액 화면](./images/Monthly Sales Amount.jpg)
+
+## 월별 주문건수
+![월별 주문건수 화면](./images/Monthly Order Count.jpg)
+
+## 카테고리별 판매 수량
+![카테고리별 판매 수량 화면](./images/Category Sales Ranking by Age Group.jpg)
+
+## 연령대별 카테고리 판매 순위
+![연령대별 카테고리 판매 순위 화면](./images/Category Sales Ranking by Age Group.jpg)
+
+## 성장률
+![성장률 화면](./images/Growth Rate.jpg)
+
+## 판매 예측
+![판매 예측 화면](./images/Sales Forecast.jpg)
