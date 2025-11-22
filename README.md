@@ -49,19 +49,19 @@ React 기반으로 제작한 웹 애플리케이션입니다.
 ![관리자 대시보드](./images/orderlist.jpeg)
 
 ## 월별 판매액
-![월별 판매액 화면](./images/MonthlySalesAmount.jpg).
+![월별 판매액 화면](./images/Amount.jpg).
 
 ## 월별 주문건수
-![월별 주문건수 화면](./images/MonthlyOrderCount.jpg)
+![월별 주문건수 화면](./images/Count.jpg)
 
 ## 카테고리별 판매 수량
-![카테고리별 판매 수량 화면](./images/CategorySalesRankingbyAgeGroup.jpg)
+![카테고리별 판매 수량 화면](./images/Ranking.jpg)
 
 ## 연령대별 카테고리 판매 순위
-![연령대별 카테고리 판매 순위 화면](./images/CategorySalesRankingbyAgeGroup.jpg)
+![연령대별 카테고리 판매 순위 화면](./images/Category.jpg)
 
 ## 성장률
-![성장률 화면](./images/GrowthRate.jpg)
+![성장률 화면](./images/Growth.jpg)
 
 ## 판매 예측
-![판매 예측 화면](./images/SalesForecast.jpg)
+![판매 예측 화면](./images/Forecast.jpg)
